@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 // Hardcoded release data for demonstration purposes.
 const releases = [
   {
-    version: "3.5.1",
+    version: "0.0.1",
     releaseNotes: "\n + discord rpc\n +  \n yt mod mode  \n some UI changes \n + smooth video player experience \n + stable version 3.4.6\n -😁😁💖Thanks🤞🤞",
     // The downloadUrl is now set to your webpage link to open the page on update click.
     downloadUrl: "https://dhr-store.vercel.app/app2.html",
@@ -22,7 +22,7 @@ const releases = [
     publishedAt: "2025-08-06T12:00:00Z"
   },
   {
-    version: "3.4.9",
+    version: "0.0.1",
     releaseNotes: "Bug fixes and performance improvements.\n- Fixed login issue\n- Improved UI responsiveness",
     downloadUrl: "https://your-vercel-app-domain.vercel.app/downloads/your-app-v1.0.1.apk",
     fileName: "your-app-v1.0.1.apk",
